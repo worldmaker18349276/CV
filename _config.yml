@@ -1,4 +1,14 @@
-theme: minima
 title: CV
+author: 黃昱維
+email: worldmaker18349276@gmail.com
 description: updated at April 2023
-header_pages: []
+
+github_username:  worldmaker18349276
+linkedin_username: worldmaker18349276@gmail.com
+
+show_excerpts: false
+
+header_pages:
+  - about.html
+
+theme: minima
