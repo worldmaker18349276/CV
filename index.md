@@ -4,7 +4,6 @@ title: 黃昱維
 
 ## 基本資料
 - 姓名：黃昱維
-- 人格類型：INFP-T
 - GitHub：[worldmaker18349276](https://github.com/worldmaker18349276)
 - 信箱：worldmaker18349276@gmail.com
 
