@@ -1,5 +1,6 @@
 ---
 title: 黃昱維
+author: 4/19/2023
 ---
 
 ## 基本資料
@@ -103,3 +104,4 @@ title: 黃昱維
   為了分析任意維度的幾何，需要將幾何物件之間的關係建模成 bounded acyclic categories（類似於 directed acyclic graphs）。
   此函式庫即為此數學模型的資料結構與相應的演算法。
   具體細節將會以學術文章的形式發布於 arXiv 上。
+
