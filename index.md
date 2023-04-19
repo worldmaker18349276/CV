@@ -6,7 +6,7 @@ title: 黃昱維
 - 姓名: 黃昱維 (Yu-Wei Huang)
 - 信箱: worldmaker18349276@gmail.com
 - GitHub: [worldmaker18349276](https://github.com/worldmaker18349276)
-- LinkedIn: [黃昱維](https://www.linkedin.com/in/%E6%98%B1%E7%B6%AD-%E9%BB%83-3a1326132/)
+- LinkedIn: [昱維-黃-3a1326132](https://www.linkedin.com/in/%E6%98%B1%E7%B6%AD-%E9%BB%83-3a1326132/)
 
 ## 學經歷
 
