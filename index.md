@@ -17,18 +17,28 @@ title: 黃昱維
 
 ## 專長
 
-### 擅長的程式語言
-- Python + numpy／scipy／matplotlib
-- JavaScript／HTML／CSS
-- Rust
-- Haskell
-- LaTeX
-- Java
-
-### 擅長的技術
+- 量子開放系統
+- 數值計算與分析 (Python + numpy/scipy/matplotlib)
+- 程式語言 (Python, JavaScript, Rust, Haskell, LaTeX, Java)
 - 資訊安全
-- 數值計算
-- 架構設計
+
+## 學術論文
+
+- Yu-Wei Huang, Pei-Yun Yang, and Wei-Min Zhang,
+  _Quantum theory of dissipative topological systems_,
+  Phys. Rev. B **102**, 165116 (2020).
+
+- Yu-Wei Huang and Wei-Min Zhang,
+  _Exact master equation for generalized quantum Brownian motion with momentum-dependent system-environment couplings_,
+  Phys. Rev. Research **4**, 033151 (2022).
+
+- Yu-Wei Huang,
+  _Bosonic/Fermionic Tensor Network Diagram and Normal Ordering Super-Fock Space_,
+  博士畢業論文 (2023).
+
+- Yu-Wei Huang,
+  _Abstract Orientable Incidence Structure and Algorithms for Finite Bounded Acyclic Categories. I. Incidence Structure_,
+  arXiv preprint arXiv:2303.04306 (2023).
 
 ## 專案
 
@@ -38,7 +48,7 @@ title: 黃昱維
 
   大二時開始參與的計畫。
   核心想法為藉由對稱加密方法建構一套資訊安全系統，以此抵禦因量子加密興起而產生的資安破口。
-  作為初期成員，曾與其他成員討論並設計系統架構，學習到了由上而下的開發過程。
+  作為初期成員，曾與其他成員討論並設計系統架構。
   也有參與 protocol 的設計與除錯。
 
 ### [nu](https://github.com/worldmaker18349276/nu)  (private)
@@ -85,7 +95,6 @@ title: 黃昱維
 
 ### [BAC](https://github.com/worldmaker18349276/bac)  (unfinished, private for now)
 - _main language_: Haskell
-- _articles_: ["Abstract Orientable Incidence Structure and Algorithms for Finite Bounded Acyclic Categories. I. Incidence Structure"](https://arxiv.org/abs/2303.04306), "Abstract Orientable Incidence Structure and Algorithms for Finite Bounded Acyclic Categories. II. Data Structure and Fundamental Operations" (coming soon)
 - _description_: A data structure for bounded acyclic categories.
 
   在專案 [twisty sphere](https://github.com/worldmaker18349276/twisty-sphere) 中，我用幾何方法模擬了二維魔術方塊的運作。
@@ -94,11 +103,3 @@ title: 黃昱維
   為了分析任意維度的幾何，需要將幾何物件之間的關係建模成 bounded acyclic categories（類似於 directed acyclic graphs）。
   此函式庫即為此數學模型的資料結構與相應的演算法。
   具體細節將會以學術文章的形式發布於 arXiv 上。
-
-## 自我評價
-
-- 不擅長使用工具
-- 擅長思考，分析問題
-- 擅長學習新技術
-- 內向，不擅長溝通
-- 缺少硬體相關的知識
