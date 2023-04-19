@@ -8,6 +8,7 @@ linkedin_username: 昱維-黃-3a1326132
 
 show_excerpts: false
 
-header_pages: []
+header_pages:
+  - about.html
 
 theme: minima
