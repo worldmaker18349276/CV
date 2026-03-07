@@ -16,10 +16,17 @@ title: 黃昱維
 
 ## 專長
 
-- 量子開放系統
-- 數值計算與分析 (Python + numpy/scipy/matplotlib)
-- 程式語言 (Python, JavaScript, Rust, Haskell, LaTeX, Java)
-- 資訊安全
+- **量子開放系統** (Open Quantum Systems)
+- **程式語言**  
+  C/C++, C#, Java, Rust, Python, TypeScript, Haskell, LaTeX
+- **資料庫系統**  
+  SQLite, PostgreSQL, MySQL, Microsoft SQL Server
+- **數值計算與科學分析**  
+  Python (NumPy, SciPy, Matplotlib)
+- **演算法**  
+  Path Finding, Motion Planning, Visual–Inertial Odometry
+- **計算幾何與空間分析**  
+  Geometric Algorithms, Mesh Simplification, Viewshed Analysis
 
 ## 學術論文
 
@@ -92,7 +99,7 @@ title: 黃昱維
   將魔術方塊作為鍵盤非常不切實際，但這顯示了它的可能性。
   未來本專案將會繼續拓展智慧魔術方塊的應用範圍。
 
-### [BAC](https://github.com/worldmaker18349276/bac)  (unfinished, private for now)
+### [BAC](https://github.com/worldmaker18349276/bac)
 - _main language_: Haskell
 - _description_: A data structure for bounded acyclic categories.
 
