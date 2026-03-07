@@ -112,5 +112,35 @@ title: 黃昱維
   二維的情況作為特例非常簡單，而在任意維度下這個問題很複雜，而且似乎沒有文獻探討過。
   為了分析任意維度的幾何，需要將幾何物件之間的關係建模成 bounded acyclic categories（類似於 directed acyclic graphs）。
   此函式庫即為此數學模型的資料結構與相應的演算法。
-  具體細節將會以學術文章的形式發布於 arXiv 上。
+  詳細理論請見 [arXiv:2303.04306](https://arxiv.org/abs/2303.04306) 與 [arXiv:2307.00357](https://arxiv.org/abs/2307.00357).
 
+### [twisty-space-rift](https://github.com/worldmaker18349276/twisty-space-rift)
+- _main language_: TypeScript
+- _description_: 2D twisty puzzles on Riemann surface.
+
+  黎曼空間具有一些特別的屬性：繞著某個點一圈會跑到不同的空間中，就像有一道時空裂縫連接著平行宇宙一樣。
+  在遊戲《Antichamber》中就使用了這種概念，通過不同的窗戶看到的景色是不同的。
+  這個專案試圖在這種特殊的空間中模擬魔術方塊，必須轉動720度才能轉回原本的位置，甚至能讓裂縫本身跟著轉動。
+  其中使用了幾何方法判斷空間的連接性與裂縫的拓樸，從而實現高自由度的模擬。
+  這個專案拓展了我對分支空間與繩結理論的了解，並讓我更熟悉離散拓樸的數值方法。
+
+### [aperiodic-tilings](https://github.com/worldmaker18349276/aperiodic-tilings)
+- _main language_: TypeScript
+- _description_: Any-precision aperiodic tilings generator.
+
+  非週期性密鋪是不具週期性的密鋪，也就是你隨便挑一個點，所看到的景色都是不同的，而且這個空間是無限大的。
+  基於這個想像，我想把它做成能像地圖一樣輸入任意座標就能瞬間跳躍到指定位置的程式。
+  然而大部分非週期性密鋪的實做都是從原點生成，這使得要生成距離 D 的密鋪時需要 O(D^2) 的計算量。
+  而且當範圍太大時，會有數值計算的捨入誤差，使得超遠距離的密鋪出現明顯的位移。
+  這個專案使用體擴張理論與 BigInt 實現任意精度的數值運算，並使用緩存方法讓計算時間降到 O(log D) 的計算量。
+
+### [interaction_circuit](https://github.com/worldmaker18349276/interaction_circuit)
+- _main language_: Go
+- _description_: Minimal evaluator for interaction nets.
+
+  為什麼電腦工程/科學都是以命令式編程為主，而非函數式編程。上到高階程式語言，前後端框架，下到硬體架構與計算理論。
+  因此我小時候曾經想過在電路層面實做基於 lambda calculus 的電腦，就像現代電腦是在電路層面實做類似於 Turing mechine 的 Von Neumann architecture 一樣。
+  然而當時遇到一個難以解決的問題：變數遮蔽在電路層面實做起來非常困難。
+  而後來我學到了比 lambda calculus 更強大與美麗的 interaction calculus，並意識到它的線性屬性使它更容易在電路層面實做。
+  這個專案就是試圖先使用程式實做一個極小的 interaction net 求值引擎，以證明其可行性。
+  下一步便是試圖在硬體模擬軟體中設計邏輯電路。
