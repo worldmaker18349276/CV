@@ -46,6 +46,10 @@ title: 黃昱維
   _Abstract Orientable Incidence Structure and Algorithms for Finite Bounded Acyclic Categories. I. Incidence Structure_,
   arXiv preprint arXiv:2303.04306 (2023).
 
+- Yu-Wei Huang,
+  _Abstract Orientable Incidence Structure and Algorithms for Finite Bounded Acyclic Categories. II. Data Structure and Fundamental Operations_,
+  arXiv preprint arXiv:2307.00357 (2023).
+
 ## 專案
 
 ### EZPrivacy （成大資工黃宗立教授主導）
